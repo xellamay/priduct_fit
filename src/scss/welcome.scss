@@ -1,0 +1,35 @@
+.welcome {
+  height: 100vh;
+  background-image: url(../img/image1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  &__title {
+    margin-bottom: 18px;
+
+    color: $primary;
+    text-transform: uppercase;
+
+    @include title;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+
+    color: $grey;
+
+    @include text;
+  }
+
+  &__img {
+    margin: 0 60px;
+  }
+}
