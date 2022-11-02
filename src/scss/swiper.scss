@@ -17,12 +17,16 @@
       position: absolute;
       left: 5%;
       top: 39%;
+
+      z-index: 100;
     }
 
     &__button-next {
       position: absolute;
       right: 5%;
       top: 39%;
+
+      z-index: 100;
     }
   }
 }
