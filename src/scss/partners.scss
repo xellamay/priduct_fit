@@ -1,0 +1,14 @@
+.partners {
+  display: flex;
+  padding: 19px 0;
+
+  background-color: $primary;
+
+  &__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 60px;
+  margin: 0 auto;
+  }
+}
