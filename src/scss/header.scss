@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 58px 0;
+  height: 150px;
 
   &__socials {
     display: flex;
@@ -33,5 +33,27 @@
     &_phone {
       margin-left: 16px;
     }
+  }
+}
+
+@media (max-width: 951px) {
+  .header {
+
+    &__socials-item_phone {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    height: 110px;
+
+    justify-content: center;
+
+    &__socials{
+      display: none;
+    }
+
   }
 }
