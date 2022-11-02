@@ -1,0 +1,34 @@
+.swiper {
+
+  &-partners {
+    background-color: $primary;
+
+    &__wrapper {
+      align-items: center;
+    }
+    
+    &__slide {
+      display: flex;
+      justify-content: center;
+      padding: 18px 0;
+    }
+
+    &__button-prev {
+      position: absolute;
+      left: 5%;
+      top: 39%;
+    }
+
+    &__button-next {
+      position: absolute;
+      right: 5%;
+      top: 39%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .swiper {
+    display: none;
+  }
+}
