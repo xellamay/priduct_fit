@@ -1,4 +1,5 @@
 .swiper {
+  width: 100%;
 
   &-partners {
     background-color: $primary;
@@ -29,10 +30,43 @@
       z-index: 100;
     }
   }
+
+  &-projects {
+
+    &__slide {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+
+    &__button-prev {
+      position: absolute;
+      left: 5%;
+      bottom: 12%;
+
+      z-index: 100;
+    }
+
+    &__button-next {
+      position: absolute;
+      right: 5%;
+      bottom: 12%;
+
+      z-index: 100;
+    }
+  }
 }
 
+
 @media (min-width: 1200px) {
-  .swiper {
+  .swiper-partners {
+    display: none;
+  }
+}
+
+@media (min-width: 660px) {
+  .swiper-projects {
     display: none;
   }
 }

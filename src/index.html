@@ -8,7 +8,7 @@
   <title>ProductFit</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container container_sm">
     <header class="header">
       <div class="header__logo">
         <img src="./img/logo.svg" alt="logo">
@@ -30,9 +30,9 @@
       </div>
     </header>
     <section class="welcome section section_full-view">
-      <div class="welcome__description">
-        <h1 class="welcome__title">Разработка <br>IT-продуктов</h1>
-        <p class="welcome__text">Разработаем проект с нуля,<br>
+      <div class="section-description">
+        <h1 class="section-description__title">Разработка <br>IT-продуктов</h1>
+        <p class="section-description__text">Разработаем проект с нуля,<br>
           доработаем текущий проект или усилим вашу<br>
           ИТ-команду лучшими разработчиками на рынке</p>
         <button class="button button_header">Начать новый проект</button>
@@ -58,33 +58,143 @@
        <img src="./img/icon-uralairlines.svg" alt="uralairlines">
      </div>
     </div>
- </div>
+  </div>
   
- <div class="swiper swiper-partners">
-  <div class="swiper-wrapper swiper-partners__wrapper">
-    <div class="swiper-slide swiper-partners__slide">
-      <img src="./img/icon-wooter.svg" alt="wooter">
+  <div class="swiper swiper-partners">
+    <div class="swiper-wrapper swiper-partners__wrapper">
+      <div class="swiper-slide swiper-partners__slide">
+        <img src="./img/icon-wooter.svg" alt="wooter">
+      </div>
+      <div class="swiper-slide swiper-partners__slide">
+        <img src="./img/icon-smartbar.svg" alt="smartbar">
+      </div>
+      <div class="swiper-slide swiper-partners__slide">
+        <img src="./img/icon-cabify.svg" alt="cabify">
+      </div>
+      <div class="swiper-slide swiper-partners__slide">
+        <img src="./img/icon-kari.svg" alt="kari">
+      </div>
+      <div class="swiper-slide swiper-partners__slide">
+        <img src="./img/icon-uralairlines.svg" alt="uralairlines">
+      </div>
     </div>
-    <div class="swiper-slide swiper-partners__slide">
-      <img src="./img/icon-smartbar.svg" alt="smartbar">
+    <div class="swiper-button-prev swiper-partners__button-prev">
+      <img src="./img/icon-prev.png" alt="prev">
     </div>
-    <div class="swiper-slide swiper-partners__slide">
-      <img src="./img/icon-cabify.svg" alt="cabify">
-    </div>
-    <div class="swiper-slide swiper-partners__slide">
-      <img src="./img/icon-kari.svg" alt="kari">
-    </div>
-    <div class="swiper-slide swiper-partners__slide">
-      <img src="./img/icon-uralairlines.svg" alt="uralairlines">
+    <div class="swiper-button-next swiper-partners__button-next">
+      <img src="./img/icon-next.svg" alt="next">
     </div>
   </div>
-  <div class="swiper-button-prev swiper-partners__button-prev">
-    <img src="./img/icon-prev.png" alt="prev">
-  </div>
-  <div class="swiper-button-next swiper-partners__button-next">
-    <img src="./img/icon-next.svg" alt="next">
-  </div>
-</div>
+
+  <div class="container container_sm">
+    <div class="projects">
+      <h2 class="projects__heading">Проекты команды ProductFit</h2>
+      <div class="projects__list">
+        <div class="projects__item">
+          <img src="./img/image-Cabify.png" alt="cabify">
+          <div class="projects__description">
+            <h4 class="projects__title">Cabify</h4>
+            <p class="projects__text">Кроссплатформенное приложение под Android и iOS разработано на React Native(Python)</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img src="./img/image-UralAirlines.png" alt="Ural Airlines">
+          <div class="projects__description">
+            <h4 class="projects__title">Ural Airlines</h4>
+            <p class="projects__text">Все сервисы для пассажиров «Уральских авиалиний» в одном приложении на Swift и Java</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img src="./img/image-OpenGift.png" alt="OpenGift">
+          <div class="projects__description">
+            <h4 class="projects__title">OpenGift</h4>
+            <p class="projects__text">Система монетизации OpenSource-проектов на основе блокчейна hyperledger fabric</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img src="./img/image-PlanDi.png" alt="PlanDi">
+          <div class="projects__description">
+            <h4 class="projects__title">PlanDi</h4>
+            <p class="projects__text">Сервис поиска актуальной работы проектировщикам и компаниям</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img src="./img/image-Коалиция.png" alt="Коалиция">
+          <div class="projects__description">
+            <h4 class="projects__title">Коалиция</h4>
+            <p class="projects__text">Проект для ведущего в России Центра образования, который осуществляет подготовку школьников к сдаче ЕГЭ.</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img src="./img/image-Rubetek.png" alt="Rubetek">
+          <div class="projects__description">
+            <h4 class="projects__title">Rubetek</h4>
+            <p class="projects__text">Управление домом IoT и микрофреймворк на языке Python совместно с Java и Swift</p>
+          </div>
+        </div>
+          <button class="button button_green">Все проекты</button>
+      </div>
+    </div>
+      
+      <div class="swiper swiper-projects">
+        <div class="swiper-wrapper swiper-projects__wrapper">
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-Cabify.png" alt="cabify">
+            <div class="projects__description">
+              <h4 class="projects__title">Cabify</h4>
+              <p class="projects__text">Кроссплатформенное приложение под Android и iOS разработано на React Native(Python)</p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-UralAirlines.png" alt="Ural Airlines">
+            <div class="projects__description">
+              <h4 class="projects__title">Ural Airlines</h4>
+              <p class="projects__text">Все сервисы для пассажиров «Уральских авиалиний» в одном приложении на Swift и Java</p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-OpenGift.png" alt="OpenGift">
+            <div class="projects__description">
+              <h4 class="projects__title">OpenGift</h4>
+              <p class="projects__text">Система монетизации OpenSource-проектов на основе блокчейна hyperledger fabric</p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-PlanDi.png" alt="PlanDi">
+            <div class="projects__description">
+              <h4 class="projects__title">PlanDi</h4>
+              <p class="projects__text">Сервис поиска актуальной работы проектировщикам и компаниям</p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-Коалиция.png" alt="Коалиция">
+            <div class="projects__description">
+              <h4 class="projects__title">Коалиция</h4>
+              <p class="projects__text">Проект для ведущего в России Центра образования, который осуществляет подготовку школьников к сдаче ЕГЭ.</p>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-projects__slide">
+            <img src="./img/image-Rubetek.png" alt="Rubetek">
+            <div class="projects__description">
+              <h4 class="projects__title">Rubetek</h4>
+              <p class="projects__text">Управление домом IoT и микрофреймворк на языке Python совместно с Java и Swift</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev swiper-projects__button-prev">
+          <img src="./img/icon-prev-green.png" alt="prev">
+        </div>
+        <div class="swiper-button-next swiper-projects__button-next">
+          <img src="./img/icon-next-green.png" alt="next">
+        </div>
+        <div class="projects__elem">
+          <img src="./img/elem1.svg" alt="element">
+        </div>
+        <div class="projects__all-projects">
+          <button class="button button_green">Все проекты</button>
+        </div>
+      </div>
+      
 
   <script type="module" src="./js/scripts.js"></script>
 </body>

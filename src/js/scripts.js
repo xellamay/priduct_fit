@@ -1,6 +1,6 @@
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper(".swiper", {
   modules: [Navigation, Pagination],
 
   direction: 'horizontal',

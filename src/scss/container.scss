@@ -1,6 +1,13 @@
 .container {
-  max-width: 1200px;
   height: 100vh;
   padding: 0 20px;
   margin: 0 auto;
+
+  &_sm {
+    max-width: 1000px;
+  }
+
+  &_md {
+    max-width: 1180px;
+  }
 }
