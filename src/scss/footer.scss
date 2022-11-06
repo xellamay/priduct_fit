@@ -1,0 +1,78 @@
+.footer {
+  
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    column-gap: 20px;
+    margin-top: 60px;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 22px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $primary;
+
+    @include text;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  &__contacts-text {
+    @include text;
+
+    color: $primary;
+    font-weight: 700;
+  }
+
+  &__socials-list {
+    display: flex;
+    column-gap: 15px;
+  }
+
+  &__socials-item {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+
+    text-decoration: none;
+
+    &_phone {
+      @include text;
+
+      font-weight: 700;
+      color: $primary;
+    }
+  }
+
+  &__license {
+    display: flex;
+  }
+
+  &___license-text {
+    font-size: 14px;
+
+    @include text;
+  }
+
+  &__copyright {
+    margin: 40px 0;
+
+    color: rgba(60, 60, 60, 0.5);
+    text-align: center;
+    
+    @include text;
+  }
+}

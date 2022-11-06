@@ -1,5 +1,4 @@
 .container {
-  height: 100vh;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -9,5 +8,9 @@
 
   &_md {
     max-width: 1180px;
+  }
+
+  &_full-screen {
+    height: 100vh;
   }
 }
