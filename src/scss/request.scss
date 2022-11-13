@@ -4,8 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     column-gap: 100px;
+    row-gap: 40px;
 
     padding: 50px 0;
   }

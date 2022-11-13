@@ -112,6 +112,35 @@
       z-index: 100;
     }
   }
+
+  &-products {
+
+    &__list {
+      justify-content: center !important;
+    }
+
+    &__item {
+      flex-basis: 220px !important;
+    }
+
+    &__button-prev {
+      position: absolute;
+
+      right: 5%;
+      top: 47%;
+
+      z-index: 100;
+    }
+
+    &__button-next {
+      position: absolute;
+
+      left: 5%;
+      top: 47%;
+
+      z-index: 100;
+    }
+  }
 }
 
 
@@ -139,5 +168,11 @@
       align-items: center;
       text-align: center;
     }
+  }
+}
+
+@media (min-width: 1100px) {
+  .swiper-products {
+    display: none;
   }
 }
