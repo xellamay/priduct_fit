@@ -1,24 +1,24 @@
 // LIBS
-@import "../../node_modules/swiper/swiper.scss";
-@import '../../node_modules/reset-css/sass/reset';
+@import "../../../node_modules/swiper/swiper.scss";
+@import '../../../node_modules/reset-css/sass/reset';
 
 // FONT
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 
-// 
-@import "variabels";
-@import "mixins";
+// COMMON
+@import "../common/variabels";
+@import "../common/mixins";
 
-@import "container";
-@import "button";
+@import "../common/container";
+@import "../common/button";
 @import "section-description";
 
-@import "header";
+@import "../common/header";
 @import "welcome";
 
 @import "partners";
 
-@import "swiper";
+@import "../common/swiper";
 
 @import "projects";
 
@@ -26,4 +26,4 @@
 
 @import "request";
 
-@import "footer";
+@import "../common/footer";

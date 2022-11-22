@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 1230px) {
+@media screen and (max-width: 1230px) {
   .footer {
     &__logo {
       display: none;
@@ -84,7 +84,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .footer {
     &__logo {
       display: none;
@@ -99,8 +99,10 @@
     }
 
     &__menu {
-      width: 100%;
+      flex-direction: row;
       justify-content: space-between;
+      
+      width: 100%;
       margin: 0 auto;
     }
 

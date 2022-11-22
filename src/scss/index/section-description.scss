@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 426px) {
+@media screen and (max-width: 426px) {
   .section-description {
     justify-content: flex-start;
     align-items: center;
