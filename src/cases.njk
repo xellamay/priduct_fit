@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/cases/cases.scss">
+  <title>ProductFit</title>
+</head>
+<body>
+  <div class="container container_sm">
+    {% include './parts/header.njk' %}
+    <div class="swiper swiper-cases">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-cases__slide">
+          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+        </div>
+        <div class="swiper-slide swiper-cases__slide">
+          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+        </div>
+        <div class="swiper-slide swiper-cases__slide">
+          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+        </div>
+      </div>
+      <div class="swiper-pagination swiper-pagination-horizontal"></div>
+      <div class="swiper-button-prev swiper-cases__button-prev">
+        <img src="./img/icon-prev-green.png" alt="prev">
+      </div>
+      <div class="swiper-button-next swiper-cases__button-next">
+        <img src="./img/icon-next-green.png" alt="next">
+      </div>
+    </div>
+  </div>
+
+  <div class="container"></div>
+</body>
+
+<script type="module" src="./js/scripts.js"></script>
+</html>
