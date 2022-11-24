@@ -1,0 +1,23 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  padding: 50px;
+  &__title {
+    @include title;
+
+    margin: 30px 0;
+
+    text-transform: uppercase;
+    color: $primary;
+  }
+
+  &__subtitle {
+    @include text;
+
+    margin-bottom: 30px;
+  }
+}

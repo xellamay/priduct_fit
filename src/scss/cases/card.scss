@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px 40px;
+  margin-top: 150px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+  box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+  border-radius: 30px;
+
+  &__logo {
+    margin-top: -100px;
+  }
+
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 0;
+    column-gap: 70px
+  }
+
+  &__subtitle {
+    @include text;
+  }
+
+  &__title {
+    @include title;
+
+    font-size: 24px;
+    color: $primary;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    column-gap: 20px;
+
+    opacity: 0.5;
+  }
+
+  &__link {
+    margin-bottom: 20px;
+  }
+
+  &__link::before {
+    content: url(../../img/icon-chain.svg);
+  }
+
+  &__link-opengift {
+    @include title;
+
+    font-size: 24px;
+
+    color: $primary;
+    text-decoration: none;
+  }
+}
