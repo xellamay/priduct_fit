@@ -13,13 +13,13 @@
     <div class="swiper swiper-cases">
       <div class="swiper-wrapper">
         <div class="swiper-slide swiper-cases__slide">
-          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+          <img class="swiper-cases__image" src="./img/image-OpenGift_big.png" alt="OpenGift">
         </div>
         <div class="swiper-slide swiper-cases__slide">
-          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+          <img class="swiper-cases__image" src="./img/image-OpenGift_big.png" alt="OpenGift">
         </div>
         <div class="swiper-slide swiper-cases__slide">
-          <img src="./img/image-OpenGift_big.png" alt="OpenGift">
+          <img class="swiper-cases__image" src="./img/image-OpenGift_big.png" alt="OpenGift">
         </div>
       </div>
       <div class="swiper-pagination swiper-pagination-horizontal"></div>
@@ -37,7 +37,7 @@
       <div class="description__card">
         <div class="card">
           <div class="card__logo">
-            <img src="./img/logo-opengift.png" alt="opengift">
+            <img class="card__image" src="./img/logo-opengift.png" alt="opengift">
           </div>
           <div class="card__inner">
             <div class="card__text">
@@ -58,7 +58,7 @@
             <div class="card__link">
               <a href="#" class="card__link-opengift">Opengift.io</a>
             </div>
-            <button class="button">узнать стоимость проекта</button>
+            <button class="button button_card">узнать стоимость проекта</button>
           </div>
         </div>
       </div>
@@ -80,6 +80,93 @@
         </div>
       </div>
     </section>
+  </div>
+  <section class="banner">
+    <div class="banner__desc">
+      <div class="banner__title">Начнем проект?</div>
+      <div class="banner__subtitle">Усилим Вашу комунду и запустим 
+        проект быстрее!</div>
+      <button class="button button_white">узнать стоимость проекта</button>
+    </div>
+    <img class="banner__image" src="./img/image-stairs.png" alt="image">
+  </section>
+
+  <div class="container container_sm">
+     {% include './parts/projects.njk' %}
+  </div>
+
+  <div class="swiper swiper-projects">
+    <div class="swiper-wrapper swiper-projects__wrapper">
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-Cabify.png" alt="cabify">
+        <div class="projects__description">
+          <h4 class="projects__title">Cabify</h4>
+          <p class="projects__text">Кроссплатформенное приложение под Android и iOS разработано на React Native(Python)</p>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-UralAirlines.png" alt="Ural Airlines">
+        <div class="projects__description">
+          <h4 class="projects__title">Ural Airlines</h4>
+          <p class="projects__text">Все сервисы для пассажиров «Уральских авиалиний» в одном приложении на Swift и Java</p>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-OpenGift.png" alt="OpenGift">
+        <div class="projects__description">
+          <h4 class="projects__title">OpenGift</h4>
+          <p class="projects__text">Система монетизации OpenSource-проектов на основе блокчейна hyperledger fabric</p>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-PlanDi.png" alt="PlanDi">
+        <div class="projects__description">
+          <h4 class="projects__title">PlanDi</h4>
+          <p class="projects__text">Сервис поиска актуальной работы проектировщикам и компаниям</p>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-Коалиция.png" alt="Коалиция">
+        <div class="projects__description">
+          <h4 class="projects__title">Коалиция</h4>
+          <p class="projects__text">Проект для ведущего в России Центра образования, который осуществляет подготовку школьников к сдаче ЕГЭ.</p>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-projects__slide">
+        <img src="./img/image-Rubetek.png" alt="Rubetek">
+        <div class="projects__description">
+          <h4 class="projects__title">Rubetek</h4>
+          <p class="projects__text">Управление домом IoT и микрофреймворк на языке Python совместно с Java и Swift</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev swiper-projects__button-prev">
+      <img src="./img/icon-prev-green.png" alt="prev">
+    </div>
+    <div class="swiper-button-next swiper-projects__button-next">
+      <img src="./img/icon-next-green.png" alt="next">
+    </div>
+    <div class="projects__elem">
+      <img src="./img/elem1.svg" alt="element">
+    </div>
+    <div class="projects__all-projects">
+      <button class="button button_green">Все проекты</button>
+    </div>
+  </div>
+
+  <section class="request section section_full-view">
+    <div class="request__inner">
+      <img class="request__image" src="./img/image3.svg" alt="image">
+      <div class="request__desc">
+        <h2 class="request__title">Начнем работу над вашим <br> ІТ-проектом через 24 часа</h2>
+        <p class="request__subtitle">Проектируем, запускаем и сопровождаем IT-проеты любой сложности</p>
+        <button class="button button_header">Оставить заявку</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="container container_md">
+    {% include './parts/footer.njk' %}
   </div>
 </body>
 

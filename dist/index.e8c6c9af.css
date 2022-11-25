@@ -447,7 +447,17 @@ table {
 .button_shadow {
   box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
 }
+.button_white {
+  color: #1E959B;
+  background: #F8FFFF;
+  box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+}
 
+@media screen and (max-width: 550px) {
+  .button_card {
+    padding: 24px 34px;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -615,6 +625,9 @@ table {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+}
+.swiper-cases__image {
+  width: 100%;
 }
 .swiper-cases__button-prev {
   position: absolute;
@@ -957,6 +970,35 @@ table {
   column-gap: 100px;
   row-gap: 40px;
   padding: 50px 0;
+}
+.request__desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.request__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 18px;
+  color: #1E959B;
+}
+.request__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 38px;
+}
+
+@media screen and (max-width: 990px) {
+  .request__title {
+    display: none;
+  }
+  .request__subtitle {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=/index.e8c6c9af.css.map */

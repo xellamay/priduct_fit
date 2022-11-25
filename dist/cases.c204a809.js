@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\banner1.png":[["banner1.03eac376.png","img/banner1.png"],"img/banner1.png"],"./..\\..\\img\\banner1-mob.png":[["banner1-mob.be438e44.png","img/banner1-mob.png"],"img/banner1-mob.png"],"./..\\..\\img\\icon-chain.svg":[["icon-chain.5e360a12.svg","img/icon-chain.svg"],"img/icon-chain.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\img\\banner1.png":[["banner1.03eac376.png","img/banner1.png"],"img/banner1.png"],"./..\\..\\img\\banner1-mob.png":[["banner1-mob.be438e44.png","img/banner1-mob.png"],"img/banner1-mob.png"],"./..\\..\\img\\image1.png":[["image1.f29376c1.png","img/image1.png"],"img/image1.png"],"./..\\..\\img\\image1-mob.png":[["image1-mob.38e99c83.png","img/image1-mob.png"],"img/image1-mob.png"],"./..\\..\\img\\icon-chain.svg":[["icon-chain.5e360a12.svg","img/icon-chain.svg"],"img/icon-chain.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56971" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62596" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

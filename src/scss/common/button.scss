@@ -36,4 +36,16 @@
   &_shadow {
     box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
   }
+
+  &_white {
+    color: $primary;
+    background: $white;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .button_card {
+    padding: 24px 34px;
+  }
 }

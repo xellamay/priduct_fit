@@ -11,4 +11,37 @@
 
     padding: 50px 0;
   }
+
+  &__desc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    @include title;
+
+    margin-bottom: 18px;
+
+    color: $primary;
+  }
+
+  &__subtitle {
+    @include text;
+
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .request {
+
+    &__title {
+      display: none;
+    }
+
+    &__subtitle {
+      display: none;
+    }
+  }
 }

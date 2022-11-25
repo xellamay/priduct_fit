@@ -21,3 +21,19 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 990px) {
+  .text {
+    padding: 30px;
+    
+    &__title {
+      text-align: center;
+      line-height: 1.6;
+      font-size: 24px;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+    }
+  }
+}
